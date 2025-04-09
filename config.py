@@ -5,12 +5,12 @@
 from os import environ 
 
 class Config:
-    API_ID = int(environ.get("API_ID", "25364269"))
-    API_HASH = environ.get("API_HASH", "ddfbbd94cf441e22ee71bb7f4695c2f1")
+    API_ID = int(environ.get("API_ID", "27900743"))
+    API_HASH = environ.get("API_HASH", "ebb06ea8d41420e60b29140dcee902fc")
     BOT_TOKEN = environ.get("BOT_TOKEN", "") 
     BOT_SESSION = environ.get("BOT_SESSION", "vjbot") 
     DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://rsrasasingh:FS2G9YbI28KbPHLC@cluster0.yljr3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-    DATABASE_NAME = environ.get("DATABASE_NAME", "vj-forward-bot")
+    DATABASE_NAME = environ.get("DATABASE_NAME", "Vj-Forward_Bot")
     BOT_OWNER = int(environ.get("BOT_OWNER", "7804396225"))
 
 # Don't Remove Credit Tg - @VJ_Botz
